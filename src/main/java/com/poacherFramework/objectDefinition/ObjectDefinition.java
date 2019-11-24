@@ -18,11 +18,23 @@ public class ObjectDefinition {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public WhatType getType() {
         return type;
     }
 
+    public void setType(WhatType type) {
+        this.type = type;
+    }
+
     public By getLocator() {
         return locator;
+    }
+
+    public void setLocator(By locator) {
+        this.locator = locator;
     }
 }
